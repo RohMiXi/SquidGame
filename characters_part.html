@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Game - Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("./images/background_participants.png");
+            background-position: center;
+        }
+
+
+        .main_content_box {
+            background-image: url("./images/square.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+
+        }
+
+
+        .navbar ul li img {
+            position: relative;
+            z-index: -1;
+        }
+
+        .circle,
+        .triangle {
+            opacity: 30%;
+        }
+
+        .main_content_box p {
+            padding-bottom: 2vh;
+        }
+    </style>
+</head>
+
+<body style="overflow:hidden">
+
+    <!-- ********** Header Logo Area ********** -->
+    <div class="header">
+        <a href="./index.html">SQUID GAME</a>
+    </div>
+
+    <!-- ********** Navigation Area ********** -->
+    <div class="navbar">
+        <ul>
+            <li class="list">
+                <img class="circle" src="./images/nav_circle.png">
+                <div class="hoverText">
+                    <a href="./introduce.html">작품 소개</a>
+                </div>
+            </li>
+            <li class="list">
+                <img class="triangle" src="./images/nav_triangle.png">
+                <div class="hoverText">
+                    <a href="./gotoNetflix.html">작품 감상</a>
+                </div>
+            </li>
+            <li class="list">
+                <img class="square" src="./images/nav_square.png">
+                <div class="hoverText">
+                    <a href="#">등장인물</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="char_nav">
+        <ul style="padding:0;">
+            <li class="char_list">
+                <div class="char_text">
+                    <a href="./characters_part.html"  style="font-weight: 700;">게임 참가자</a>
+                </div>
+            </li>
+            <li class="char_list">
+                <div class="char_text" style="opacity: 30%;">
+                    <a href="./characters_villian.html">게임 주최측</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ********** Main Contents Area ********** -->
+    <div class="main_content_box" style="height:93vh; position:relative; ">
+        <div class="char_box" style="overflow-y:scroll;">
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/sung_ki_hun.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">성기훈</span>
+                    <span id="actor_name">이정재</span>
+                    <p> &nbsp;구조조정으로 실직한 후 사채와 도박을 전전하다 이혼을 하고 무기력한 삶을 이어가고 있다. 어머니 돈을 훔
+                        쳐 경마장에 갈 만큼 철 없는 기훈은 새 아빠를 따라 미
+                        국에 간다는 딸과 당뇨로 당장 입원해야 하는 어머니를
+                        위해 큰 돈이 절실하다. 지하철에서 만난 의문의 남자
+                        가 건넨 명함, 말도 안 된다고 생각하면서도 결국 기훈
+                        은 456억 원의 상금이 걸린 게임에 참여한다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/cho_sang_woo.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">조상우</span>
+                    <span id="actor_name">박해수</span>
+                    <p> &nbsp;어릴 적부터 수재였던 기훈의 동네 후배.
+                        서울대학교 경영대학을 졸업하고 대기업에 입사해 승승장구하고 있다고
+                        모두가 알고 있지만, 실상은 고객의 돈까지 유용했던 투자에 실패해
+                        거액의 빚더미에 앉았다. 미래도 희망도 없는 그에게 이 기회는 목숨을
+                        투자할 가치가 있다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/oh_il_nam.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">오일남</span>
+                    <span id="actor_name">오영수</span>
+                    <p> &nbsp;뇌종양에 걸린 칠순 노인으로 치매 증상이 있다.
+                        어차피 얼마 남지 않은 삶, 목숨을 건 서바이벌 게임에
+                        겁을 먹긴커녕 오히려 게임 자체를 순수하게 즐긴다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/kang_sae_byeok.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">강새벽</span>
+                    <span id="actor_name">정호연</span>
+                    <p> &nbsp;소매치기까지 하며 거칠게 살아온 탈북민. 죽기 살기로 
+                        돈을 버는 것은 보육원에 혼자 남겨진 남동생과 북에 있는 어머니를 
+                        탈북시켜 함께 살고 싶기 때문이었다. 하지만 브로커에게 사기당해 
+                        돈을 모두 잃고 만다. 가족이 함께 모일 수 있는 마지막 희망, 
+                        이 게임에 모든 것을 걸었다.
+                    </p>
+                </div>
+
+            </div>
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/jang_deok_su.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">장덕수</span>
+                    <span id="actor_name">허성태</span>
+                    <p> &nbsp;기세등등한 조폭 덕수는 실상 카지노에서 조직의 돈까지 모두 잃고
+                         쫓기고 있는 신세다. 조직에 잡히는 순간 어차피 죽은 목숨,
+                          게임에서 승리하면 모든 것을 한 방에 해결할 수 있다는 생각에 
+                          수단과 방법을 가리지 않는다. 그것이 살인일지라도.
+                    </p>
+                </div>
+            </div>
+
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/alli_abdul.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">알리 압둘</span>
+                    <span id="actor_name">아누팜 트리파티</span>
+                    <p> &nbsp;코리안 드림을 꿈꿨지만 꿈을 이루기는커녕 몸과 마음을 
+                        혹사당하고 상처투성이가 되었다. 산재를 당했지만 사장이 6개월치
+                         월급을 주지 않고 병원비는커녕 집으로 돌아갈 여비도 마련해주지 
+                         않은 채 그를 홀대하자 결국 큰 사고를 치고 만다. 한국에 온 것은 
+                         가족과 함께 잘살고 싶어서였다. 잘살기 위해 마지막으로 한 번 더 
+                         사람을 믿어보려 한다.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

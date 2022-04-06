@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Game - Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("./images/background_villian.png");
+            background-position: center;
+        }
+
+
+        .main_content_box {
+            background-image: url("./images/square.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+
+        .navbar ul li img {
+            position: relative;
+            z-index: -1;
+        }
+
+        .circle,
+        .triangle {
+            opacity: 30%;
+        }
+
+        .main_content_box p {
+            padding-bottom: 2vh;
+        }
+    </style>
+</head>
+
+<body style="overflow:hidden">
+
+    <!-- ********** Header Logo Area ********** -->
+    <div class="header">
+        <a href="./index.html">SQUID GAME</a>
+    </div>
+
+    <!-- ********** Navigation Area ********** -->
+    <div class="navbar">
+        <ul>
+            <li class="list">
+                <img class="circle" src="./images/nav_circle.png">
+                <div class="hoverText">
+                    <a href="./introduce.html">작품 소개</a>
+                </div>
+            </li>
+            <li class="list">
+                <img class="triangle" src="./images/nav_triangle.png">
+                <div class="hoverText">
+                    <a href="./gotoNetflix.html">작품 감상</a>
+                </div>
+            </li>
+            <li class="list">
+                <img class="square" src="./images/nav_square.png">
+                <div class="hoverText">
+                    <a href="#">등장인물</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="char_nav">
+        <ul style="padding:0;">
+            <li class="char_list">
+                <div class="char_text" style="opacity: 30%;">
+                    <a href="./characters_part.html">게임 참가자</a>
+                </div>
+            </li>
+            <li class="char_list">
+                <div class="char_text">
+                    <a href="./characters_villian.html"  style="font-weight: 700;">게임 주최측</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ********** Main Contents Area ********** -->
+    <div class="main_content_box" style="height:93vh; position:relative; ">
+        <div class="char_box" style="overflow-y:scroll;">
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/mask_man.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">프론트맨</span>
+                    <span id="actor_name">권유준, 이병헌</span>
+                    <p> &nbsp;어두운 옷을 입고 검은 인면 가면을 쓴 사람으로,
+                        오징어 게임의 진행을 총지휘한다. 본인은 호스트와 통화할 때
+                        자신을 프론트맨이라고 호칭하지만 진행 요원들 사이에서는 대장이라고
+                        불리며, 엔딩 롤에서도 대장가면이라고 표기된다.
+                    </p>
+                </div>
+            </div>
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/mysterious_suitMan.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">정장 차림의 남자</span>
+                    <span id="actor_name">공유</span>
+                    <p> &nbsp;기훈에게 오징어 게임을 권한 남자.
+                        양재시민의숲역에서 지하철을 놓친 기훈 앞에 나타나
+                        10만 원을 걸고 딱지치기를 하자고 한다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="characters" style="text-align: left;">
+                <div class="left">
+                    <img src="./images/characters/game_agents.png"
+                        style="width : 250px; height: 250px; object-fit: cover;">
+                </div>
+                <div class="right" style="padding-top: 16px;">
+                    <span id="character_name">진행요원</span>
+                    <span id="actor_name">○ △ □</span>
+                    <p> &nbsp;자홍색의 후드 달린 옷을 입고 역할에 따라
+                        ○, △, □가 그려진 검은 가면을 써 신원을 완전히
+                        가린 사람들. 게임의 진행에 필요한 일들을 하며,
+                        가면에 그려진 문양에 따라 역할과 직책이 부여되어 있다.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

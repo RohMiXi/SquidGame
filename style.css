@@ -1,0 +1,361 @@
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content > img {
+  display: block;
+  margin: auto;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.header > a {
+  display:block;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #ce547f;
+  text-align: center;
+  letter-spacing: 12px;
+  text-decoration: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.content > h2 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 7vh;
+}
+
+.footer p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  color: white;
+  opacity: 50%;
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  margin-left : 30%;
+  margin-right : 30%;
+}
+
+.button img {
+  width: 40%;
+  transition:0.3s;
+}
+
+.button:hover > img {
+  opacity: 30%;
+  transition:0.3s;
+}
+
+.button a {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  opacity: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition:0.3s;
+  width : 100%;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+ .button:hover > a {
+  font-size: 24px;
+  opacity: 100%;
+  transition: 0.3s;
+} 
+
+
+/* introduce page */
+
+.navbar {
+  height : 3vh;
+}
+
+.list {
+  position : relative;
+}
+
+.navbar ul{
+  display: block;
+  margin-left : 40%;
+  margin-right : 40%;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navbar ul li img {
+  display: block;
+  width : 20%;
+  margin : auto;
+}
+
+.hoverText {
+  position: absolute;
+  text-align: center;
+  border-radius : 5px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top : 2px;
+  padding-bottom: 2px;
+
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #ce547f;
+}
+
+.hoverText a {
+  display : block;
+  margin: auto;
+}
+
+
+
+.list:hover .hoverText {
+  opacity: 100%;
+}
+
+.navbar ul li {
+  text-align : center;
+  float :left;
+  width: 33.33%;
+  font-size: 18px;
+  list-style: none;
+}
+
+.navbar ul li a {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size : 14px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+.main_content_box {
+  width : 1000px;
+  height : 90vh;
+  margin: 0 auto;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+}
+
+.main_content_box > .squid_logo_eng {
+  width : 25vh;
+  padding-top:12vh;
+}
+
+.main_content_box > h1 {
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 12px;
+  color: #ce547f;
+}
+
+.main_content_box > p {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+.rating_box {
+  width: 60vh;
+  height : 20vh;
+  margin :auto;
+}
+.rating_box::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+
+.award {
+  float:left;
+  width: 33.33%;
+  height : 100%;
+  color : white;
+}
+
+.award h2 {
+  font-size : 16px;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom : 4px;
+}
+
+.award p {
+  font-size : 14px;
+  margin-top : 4px;
+}
+
+.award img {
+  width:40%;
+  margin: auto;
+}
+
+
+/* gotoNetflix */
+
+
+.netflix_logo {
+  width : 20vh;
+  padding-top:30vh;
+}
+
+
+
+.netflix_btn a:link, .netflix_btn a:visited {
+  background-color: none;
+  color: white;
+  border: 2px solid #ce547f;
+  border-radius: 5px;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.netflix_btn a:hover, .netflix_btn a:active {
+  background-color: #ce547f;
+  color: white;
+  transition: 0.3s ease;
+}
+
+/* character page */
+
+.char_nav {
+  width : 20vh;
+  height: 2vh; 
+  margin : auto;
+  text-align: center;
+}
+
+
+
+.char_nav ul{
+  display:inline-block;
+
+  margin: 0 auto;
+  height : 100%;
+}
+
+.char_nav ul li {
+  float: left;
+  text-align : center;
+  width: 10vh;
+  font-size: 18px;
+  list-style: none;
+}
+
+.char_nav ul li a {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size : 14px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+
+.char_box {
+  color : white;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  margin: 0 auto;
+  width: 650px;
+  height: 630px;
+  border:1 solid #000000;
+
+}
+
+.char_box::-webkit-scrollbar{
+  width: 6px;
+}
+.char_box::-webkit-scrollbar-track{
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+}
+
+
+.char_box::-webkit-scrollbar-thumb{
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
+
+
+
+.characters {
+  height : 250px;
+  padding-bottom : 25px;
+}
+
+.characters img{
+  border-radius: 5px;
+  float: left;
+  margin-left: 8px;
+  vertical-align: bottom;
+}
+
+
+
+#character_name {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size : 28px;
+  font-weight: 700;
+  color : white;
+  padding-left : 14px;
+}
+
+#actor_name {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size : 16px;
+  font-weight: 500;
+  color : gray;
+  padding-left : 10px;
+}
+
+.right p {
+  float : left;
+  width: 360px;
+  padding-left : 10px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: justify;
+  font-size : 16px;
+  font-weight: 300;
+}
+
+.characters::after {
+  content: "";
+  margin-top:32%;
+  width : 90%;
+  height :1px;
+  margin-left:auto;
+  margin-right:auto;
+  background: rgb(187,187,187);
+  background: linear-gradient(90deg, rgba(187,187,187,0) 0%, rgba(187,187,187,0.7) 50%, rgba(187,187,187,0) 100%);
+  display:block;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Game - Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("./images/background_introduce.png");
+        }
+
+        .main_content_box {
+            background-image: url("./images/circle.png");
+            background-repeat: no-repeat;
+            background-size:contain;
+            background-position: center;
+        }
+        
+        .navbar ul li img{
+            position: relative;
+            z-index: -1;
+        }
+
+        .triangle, .square {
+            opacity: 30%;
+        }
+
+    </style>
+</head>
+<body style="overflow:hidden">
+
+    <!-- ********** Header Logo Area ********** -->
+    <div class ="header">
+        <a href="./index.html">SQUID GAME</a>
+    </div>
+
+    <!-- ********** Navigation Area ********** -->
+    <div class="navbar">
+        <ul>
+            <li class = "list">
+                <img class= "circle" src = "./images/nav_circle.png">
+                <div class = "hoverText">
+                    <a href="#">작품 소개</a>
+                </div>
+            </li>
+            <li class = "list">
+                <img class= "triangle" src = "./images/nav_triangle.png">
+                <div class = "hoverText">
+                    <a href="./gotoNetflix.html">작품 감상</a>
+                </div>
+            </li>
+            <li class = "list">
+                <img class= "square" src = "./images/nav_square.png">
+                <div class = "hoverText">
+                    <a href="./characters_part.html">등장인물</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+     <!-- ********** Main Contents Area ********** -->
+    <div class = "main_content_box">
+        <img class = "squid_logo_eng" src = "./images/logo_eng.png">
+        <h1>오징어 게임 소개</h1>
+        <p>《오징어 게임》(영문 제목: Squid Game)은 넷플릭스가 방영한
+            <br>대한민국의 액션 서스펜스 생존 드라마이다.
+            <br>9화로 구성되며 황동혁이 각본과 감독을 맡았다.</p>
+        <h1>작품 평가</h1>
+        <div class = "rating_box">
+            <div class = "award"> 
+                <img class = "golden-globe" src = "./images/award_goldenGlove.png">
+                <h2>골든 글로브 시상식</h2>
+                <p>남우 조연상</p>
+            </div>
+            <div class = "award"> 
+                <img class = "SAG" src = "./images/award_sag.png">
+                <h2>미국배우조합상</h2>
+                <p>
+                    드라마 시리즈 여자배우<br>드라마 시리즈 남자배우<br>스턴트앙상벨
+                </p>
+            </div>
+            <div class = "award"> 
+                <img class = "critics" src = "./images/award_critics.png">
+                <h2>크리틱스 초이스 시상식</h2>
+                <p>최우수 외국어 시리즈<br>드라마 시리즈 남우주연상</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

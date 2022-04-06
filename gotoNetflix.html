@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Game - Watch On Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("./images/background_gotoNetflix.png");
+        }
+        
+        
+        .main_content_box {
+            background-image: url("./images/triangle.png");
+            background-repeat: no-repeat;
+            background-size:contain;
+            background-position: center;
+        }
+        
+
+        .navbar ul li img{
+            position: relative;
+            z-index: -1;
+        }
+
+        .circle, .square {
+            opacity: 30%;
+        }
+
+        .main_content_box p{
+            padding-bottom : 2vh;
+        }          
+
+    </style>
+</head>
+
+<body style="overflow:hidden">
+
+    <!-- ********** Header Logo Area ********** -->
+    <div class ="header">
+        <a href="./index.html">SQUID GAME</a>
+    </div>
+
+    <!-- ********** Navigation Area ********** -->
+    <div class="navbar">
+        <ul>
+            <li class = "list">
+                <img class= "circle" src = "./images/nav_circle.png">
+                <div class = "hoverText">
+                    <a href="./introduce.html">작품 소개</a>
+                </div>
+            </li>
+            <li class = "list">
+                <img class= "triangle" src = "./images/nav_triangle.png">
+                <div class = "hoverText">
+                    <a href="#">작품 감상</a>
+                </div>
+            </li>
+            <li class = "list">
+                <img class= "square" src = "./images/nav_square.png">
+                <div class = "hoverText">
+                    <a href="./characters_part.html">등장인물</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+     <!-- ********** Main Contents Area ********** -->
+     <div class = "empty_top"> </div>
+    <div class = "main_content_box">
+        <img class = "netflix_logo" src = "./images/netflix_logo.png">
+        <h1>오직 넷플릭스에서만!</h1>
+        <p> 지금 바로 넷플릭스에서 오징어 게임을 감상해보세요.</p>
+        <div class = "netflix_btn">
+            <a href = "https://www.netflix.com/kr/title/81040344?source=35" target="_blank">감상하러 가기</a>
+        </div>
+    </div>
+
+</body>
+</html> 
